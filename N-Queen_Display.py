@@ -12,7 +12,7 @@ halt = False		#stops program if a solution is found
 display = True      #toggle display program, did not implement
 size = N 			#renamed for readability
 
-board = [['N' for x in range(size)] for x in range(size)]
+board = [['N' for x in range(size)] for x in range(size)] #used in for testing purposes as using 0's did not display rows/columns evenly
 Q_location = {}		#stores previos locations of Q so they can be removed and know where to backtrack to
 
 def valid(i, j):
